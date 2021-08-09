@@ -1,4 +1,6 @@
+<?php include('db.php'); ?>
 <?php include("includes/header.php"); ?>
+
   
 
 <div class="container p-4">

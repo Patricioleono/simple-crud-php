@@ -7,7 +7,7 @@ $conn = mysqli_connect(
     'root', //usuario de base de datos
     '',  //contraseña de usuario
     'crud-php' //base de datos a conectar
-    );
+    ) or die(mysql_error($mysql));
 
  
  //   if(isset($conn)){
